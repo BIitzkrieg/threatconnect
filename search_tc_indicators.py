@@ -7,9 +7,9 @@ import hashlib
 import urllib.parse
 
 indicator_url = "https://*.threatconnect.com/api/v3/indicators/" # Populate your TC Instace URL
-owner_url = "https://*.threatconnect.com/api/v3/security/owners" # Populate your TC Instace URL
+owner_url = "https://*.threatconnect.com/api/v3/security/owners/" # Populate your TC Instace URL
 indicator_path = "/api/v3/indicators/"
-owner_path = "/api/v3/security/owners"
+owner_path = "/api/v3/security/owners/"
 api_method = "GET"
 api_id = "" # API Account ID here
 secret_key = ''  # Your key here
